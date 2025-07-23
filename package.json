@@ -2,12 +2,12 @@
   "name": "react-router-7-cypress",
   "private": true,
   "type": "module",
+  "packageManager": "yarn@4.9.2",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc",
-    "cy:open": "cypress open"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/node": "^7.7.0",
